@@ -11,10 +11,11 @@ bookMarkButtons[0].addEventListener("click", () => {
 });
 
 answerButtons[0].addEventListener("click", () =>{
-    
+
     cardAnswer1.classList.contains("card__answer") === true
     ? answerButtons[0].textContent = "Hide Answer"
     : answerButtons[0].textContent = "Show Answer";
 
     cardAnswer1.classList.toggle("card__answer");
 });
+
